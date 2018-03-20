@@ -28,14 +28,16 @@ $(function () {
     var products = [
 
 
-        { name: 'Samsung TV', price: 1500, id: 1, description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit, vel quibusdam fugiat at atque vero, minima ratione tempora architecto sit aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/300/?image=0', category: 'Elektronik' },
-        { name: 'Camera', price: 755, id: 2, description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit, vel quibusdam fugiat at atque vero, minima ratione tempora architecto sit aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/300/?image=30', category: 'Elektronik' },
-        { name: 'Shampoo', price: 25, id: 3, description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit, vel quibusdam fugiat at atque vero, minima ratione tempora architecto sit aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/300/?image=100', category: 'Hemmet' },
-        { name: 'Tandborste', price: 20, id: 4, description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit, vel quibusdam fugiat at atque vero, minima ratione tempora architecto sit aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/300/?image=20', category: 'Hemmet' },
-        { name: 'Kontor Stol', price: 800, id: 5, description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit, vel quibusdam fugiat at atque vero, minima ratione tempora architecto sit aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/300/?image=10', category: 'Kontor' },
-        { name: 'Skrivbord', price: 2000, id: 6, description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit, vel quibusdam fugiat at atque vero, minima ratione tempora architecto sit aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/300/?image=400', category: 'Kontor' }
+        { name: 'iPhone 8  ', price: 8600, id: 1, description: 'iPhone 8 är utrustad med ett imponerande kamerasystem, med en uppdaterad sensor och snabbare autofokus. Det här för ännu bättre bilder och perfekta selfies. Mobilen är snabbare, har längre batteritid och den är sjävklart både damm- och vattentålig.', picture: 'https://picsum.photos/300/?image=0', category: 'Elektronik' },
+        { name: 'Jacka', price: 499, id: 2, description: 'Tidsenlig jacka med dunliknande lätt vaddering. Dekorationsstickning i modernt snitt. Hel dragkedja, bröstficka samt frontfickor med YKK-dragkedjor. Foder i tilltalande och kontrasterande färger. Smal resår i nederkant och i ärmslut.', picture: 'https://picsum.photos/300/?image=30', category: 'Kläder' },
+        { name: 'Boll', price: 75, id: 3, description: 'Leksaker, som ord använt i svenskan sedan 1729, från isländskans "leika", är de föremål som företrädesvis barn använder vid lek. Dessa är ofta pedagogiska', picture: 'https://picsum.photos/300/?image=100', category: 'Leksaker' },
+        { name: 'Samsung Galaxy S8', price: 6790, id: 4, description: 'Jag gillade verkligen Galaxy S7 men saknade USB C och virtuella menyknappar samt möjlighet att ha bakåtpilen till vänster. Allt det är fixat med S8 som dessutom fått extrastor skärm och den läckraste designen någonsin.', picture: 'https://picsum.photos/300/?image=9', category: 'Telefoner' },
+        { name: 'Simma', price: 900, id: 5, description: 'SIMMA.NU har kommit ut som en nyhetssida för simning - sedan den 1 maj år 2000. För att söka dagliga nyheter - gå in på Nyheter NOR resp. Nyheter SWE. Annat material som krönikor, statistik, historik mm hittar du under plus-menyerna..', picture: 'https://picsum.photos/300/?image=87', category: 'Sport' },
+        { name: 'Shampoo', price: 298, id: 6, description: ' Att välja rätt schampo för din hårtyp är viktigt om du vill ha vackert hår som håller länge. Här kan du filtrera resultaten så du hittar rätt produkt oavsett om du behöver schampo för skadat, torrt, färgat, blekt eller någon annan typ av hår.', picture: 'https://picsum.photos/300/?image=109', category: 'Egen val' }
+    
     ];
 
+    
     var cart = [];
 
     var appendList = function (array, location) {
@@ -103,3 +105,4 @@ $(function () {
 
 
 });
+
